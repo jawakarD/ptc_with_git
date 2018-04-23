@@ -2,8 +2,11 @@
 body{
 
   font-family: 'Questrial', sans-serif;
-
+  background: rgba(14, 48, 214, 1);
+  color : white;
 }
+
+
 
 
 
@@ -13,7 +16,15 @@ body{
 }
 
 
-
 .event{
   border-bottom: 2px solid rgba(0,0,0,0.5);
+}
+
+nav{
+  background: #05114b !important;
+}
+
+header, footer{
+     background: rgba(0,0,0, 0.7) !important;
+
 }
