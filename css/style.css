@@ -2,12 +2,8 @@
 body{
 
   font-family: 'Questrial', sans-serif;
-  background: rgba(14, 48, 214, 1);
-  color : white;
+
 }
-
-
-
 
 
 .dropdown:hover>.dropdown-menu{
@@ -21,10 +17,17 @@ body{
 }
 
 nav{
-  background: #05114b !important;
+  background: rgba(14, 48, 214, 1) !important;
+  box-shadow: 0 5px 10px black;
 }
 
-header, footer{
-     background: rgba(0,0,0, 0.7) !important;
+/* .nav-item{
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  margin : 0 5px;
+} */
 
+header, footer{
+  background: #05114b !important;
 }
